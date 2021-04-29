@@ -1,0 +1,441 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SPP_3
+</name>
+</assembly>
+<members>
+<member name="T:SPP_3.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SPP_3.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SPP_3.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SPP_3.My.Resources.Resources.Financial_Manage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SPP_3.My.Resources.Resources.Financial_Manage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SPP_3.My.Resources.Resources.images">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SPP_3.My.Resources.Resources.images_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SPP_3.My.Resources.Resources.skensa">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3DataSet.siswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3DataSet.siswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3DataSet.siswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SPP_3.spp_3DataSetTableAdapters.siswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SPP_3.spp_3DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SPP_3.spp_3DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SPP_3.spp_3DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SPP_3.spp_3DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SPP_3.spp_3DataSetTableAdapters.TableAdapterManager.UpdateAll(SPP_3.spp_3DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SPP_3.spp_3DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SPP_3.spp_3KelasDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3KelasDataSet.kelasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3KelasDataSet.kelasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3KelasDataSet.kelasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SPP_3.spp_3KelasDataSetTableAdapters.kelasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3KelasDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SPP_3.spp_3KelasDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SPP_3.spp_3KelasDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3KelasDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SPP_3.spp_3KelasDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3KelasDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SPP_3.spp_3KelasDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3KelasDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SPP_3.spp_3KelasDataSetTableAdapters.TableAdapterManager.UpdateAll(SPP_3.spp_3KelasDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3KelasDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SPP_3.spp_3KelasDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PembayaranViewDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PembayaranViewDataSet.pembayaraninnerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PembayaranViewDataSet.pembayaraninnerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PembayaranViewDataSet.pembayaraninnerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PembayaranViewDataSetTableAdapters.pembayaraninnerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PembayaranViewDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SPP_3.spp_3PembayaranViewDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SPP_3.spp_3PembayaranViewDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3PembayaranViewDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SPP_3.spp_3PembayaranViewDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3PembayaranViewDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SPP_3.spp_3PembayaranViewDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3PembayaranViewDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SPP_3.spp_3PembayaranViewDataSetTableAdapters.TableAdapterManager.UpdateAll(SPP_3.spp_3PembayaranViewDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PembayaranViewDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PembayaranViewDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PetugasDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PetugasDataSet.petugasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PetugasDataSet.petugasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PetugasDataSet.petugasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PetugasDataSetTableAdapters.petugasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PetugasDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SPP_3.spp_3PetugasDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SPP_3.spp_3PetugasDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3PetugasDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SPP_3.spp_3PetugasDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3PetugasDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SPP_3.spp_3PetugasDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3PetugasDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SPP_3.spp_3PetugasDataSetTableAdapters.TableAdapterManager.UpdateAll(SPP_3.spp_3PetugasDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PetugasDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SPP_3.spp_3PetugasDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SiswaDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SiswaDataSet.siswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SiswaDataSet.siswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SiswaDataSet.siswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SiswaDataSetTableAdapters.siswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SiswaDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SPP_3.spp_3SiswaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SPP_3.spp_3SiswaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3SiswaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SPP_3.spp_3SiswaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3SiswaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SPP_3.spp_3SiswaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3SiswaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SPP_3.spp_3SiswaDataSetTableAdapters.TableAdapterManager.UpdateAll(SPP_3.spp_3SiswaDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SiswaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SiswaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SppDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SppDataSet.sppDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SppDataSet.sppRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SppDataSet.sppRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SppDataSetTableAdapters.sppTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SppDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SPP_3.spp_3SppDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SPP_3.spp_3SppDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3SppDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SPP_3.spp_3SppDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3SppDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SPP_3.spp_3SppDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SPP_3.spp_3SppDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SPP_3.spp_3SppDataSetTableAdapters.TableAdapterManager.UpdateAll(SPP_3.spp_3SppDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SppDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SPP_3.spp_3SppDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
